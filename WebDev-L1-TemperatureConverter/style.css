@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+body {
+font-family: "DM Sans", sans-serif;
+background: #0d0d14;
+color: #ffffff;
+min-height: 100vh;
+}
+
+.page {
+min-height: 100vh;
+max-width: 1200px;
+margin: auto;
+padding: 0 40px;
+}
+
+/* NAVBAR */
+
+nav {
+height: 85px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-bottom: 1px solid #272632;
+}
+
+.logo {
+font-family: "Space Grotesk", sans-serif;
+font-size: 25px;
+font-weight: 700;
+letter-spacing: -1px;
+}
+
+.logo span {
+color: #b9a7ff;
+}
+
+.nav-text {
+font-size: 11px;
+color: #777584;
+letter-spacing: 2px;
+}
+
+/* MAIN */
+
+main {
+padding: 70px 0 50px;
+}
+
+.intro {
+text-align: center;
+max-width: 700px;
+margin: auto;
+}
+
+.badge {
+display: inline-block;
+padding: 7px 13px;
+border: 1px solid #393647;
+border-radius: 50px;
+color: #b9a7ff;
+font-size: 10px;
+letter-spacing: 2px;
+margin-bottom: 22px;
+}
+
+h1 {
+font-family: "Space Grotesk", sans-serif;
+font-size: clamp(42px, 6vw, 72px);
+line-height: 1;
+letter-spacing: -3px;
+}
+
+h1 span {
+color: #b9a7ff;
+}
+
+.intro p {
+color: #888694;
+margin-top: 22px;
+font-size: 15px;
+line-height: 1.7;
+}
+
+/* CARD */
+
+.converter-card {
+max-width: 650px;
+margin: 55px auto 0;
+padding: 35px;
+background: #15151f;
+border: 1px solid #292835;
+border-radius: 22px;
+box-shadow: 0 25px 70px rgba(0, 0, 0, 0.35);
+}
+
+.card-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 32px;
+}
+
+.card-header h2 {
+font-family: "Space Grotesk", sans-serif;
+font-size: 21px;
+}
+
+.card-header p {
+color: #777584;
+font-size: 13px;
+margin-top: 5px;
+}
+
+.thermometer {
+width: 48px;
+height: 48px;
+border-radius: 14px;
+background: #292442;
+color: #b9a7ff;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 25px;
+font-weight: bold;
+}
+
+/* FORM */
+
+.field {
+flex: 1;
+}
+
+label {
+display: block;
+color: #777584;
+font-size: 10px;
+font-weight: 700;
+letter-spacing: 1.5px;
+margin-bottom: 9px;
+}
+
+input,
+select {
+width: 100%;
+padding: 15px;
+border-radius: 11px;
+border: 1px solid #302e3c;
+background: #0f0f17;
+color: #ffffff;
+outline: none;
+font-size: 14px;
+transition: 0.25s;
+}
+
+input::placeholder {
+color: #555361;
+}
+
+input:focus,
+select:focus {
+border-color: #b9a7ff;
+}
+
+.units {
+display: flex;
+align-items: end;
+gap: 12px;
+margin-top: 20px;
+}
+
+.swap {
+width: 35px;
+height: 45px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #b9a7ff;
+font-size: 20px;
+}
+
+/* BUTTON */
+
+button {
+width: 100%;
+margin-top: 25px;
+padding: 16px;
+border: none;
+border-radius: 11px;
+background: #b9a7ff;
+color: #12111a;
+font-size: 14px;
+font-weight: 700;
+cursor: pointer;
+transition: 0.25s;
+}
+
+button span {
+margin-left: 8px;
+}
+
+button:hover {
+transform: translateY(-2px);
+box-shadow: 0 10px 25px rgba(185, 167, 255, 0.18);
+}
+
+/* RESULT */
+
+.result-box {
+margin-top: 20px;
+padding: 22px;
+text-align: center;
+background: #101019;
+border: 1px solid #292735;
+border-radius: 12px;
+}
+
+.result-box p {
+color: #777584;
+font-size: 9px;
+letter-spacing: 2px;
+margin-bottom: 8px;
+}
+
+.result-box h3 {
+color: #b9a7ff;
+font-family: "Space Grotesk", sans-serif;
+font-size: 28px;
+}
+
+/* UNITS */
+
+.units-info {
+max-width: 650px;
+margin: 25px auto 0;
+display: flex;
+justify-content: space-between;
+padding: 18px 25px;
+border-top: 1px solid #272632;
+border-bottom: 1px solid #272632;
+}
+
+.units-info div {
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+.units-info strong {
+color: #b9a7ff;
+}
+
+.units-info span {
+color: #777584;
+font-size: 12px;
+}
+
+/* FOOTER */
+
+footer {
+border-top: 1px solid #272632;
+padding: 22px 0;
+display: flex;
+justify-content: space-between;
+color: #555361;
+font-size: 9px;
+letter-spacing: 1px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 650px) {
+
+.page {
+    padding: 0 20px;
+}
+
+nav {
+    height: 70px;
+}
+
+.nav-text {
+    display: none;
+}
+
+main {
+    padding-top: 50px;
+}
+
+h1 {
+    font-size: 45px;
+    letter-spacing: -2px;
+}
+
+.converter-card {
+    padding: 25px 20px;
+    margin-top: 40px;
+}
+
+.units {
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.swap {
+    display: none;
+}
+
+.units-info {
+    padding: 18px 5px;
+}
+
+.units-info div {
+    gap: 5px;
+}
+
+footer {
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+}
+
+
+}
