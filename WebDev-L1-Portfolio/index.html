@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio of Avneet Kaur - Web Developer and BCA Student">
+
+    <meta name="description"
+          content="Portfolio of Avneet Kaur, Web Developer and BCA Student">
+
     <title>Avneet Kaur | Web Developer</title>
 
     <link rel="stylesheet" href="style.css">
@@ -13,86 +16,124 @@
 <body>
 
     <!-- Navigation -->
-    <header>
+    <header class="header">
         <nav class="navbar">
-            <div class="logo">Avneet Kaur</div>
 
-            <ul class="nav-links">
-                <li><a href="#home" class="active">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+            <a href="#home" class="logo">Avneet Kaur</a>
+
+            <button class="menu-toggle"
+                    id="menuToggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
+
         </nav>
     </header>
 
+
     <main>
 
-        <!-- Home Section -->
+        <!-- Hero -->
         <section id="home" class="hero">
+
             <div class="hero-content">
-                <p class="availability">Available for opportunities</p>
 
-                <h1>Hi, I'm <span>Avneet Kaur</span></h1>
+                <p class="availability">
+                    Available for opportunities
+                </p>
 
-                <h2>Web Developer & BCA Student</h2>
+                <h1>
+                    Hi, I'm <span>Avneet Kaur</span>
+                </h1>
 
-                <p>
+                <h2>
+                    Web Developer & BCA Student
+                </h2>
+
+                <p class="hero-description">
                     I create clean, responsive and user-friendly websites
-                    using modern web technologies.
+                    using HTML, CSS and JavaScript.
                 </p>
 
                 <div class="hero-buttons">
-                    <a href="#projects" class="btn">View My Projects</a>
-                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                    <a href="#projects" class="btn">
+                        View My Projects
+                    </a>
+
+                    <a href="#contact" class="btn secondary-btn">
+                        Contact Me
+                    </a>
                 </div>
+
             </div>
+
         </section>
 
-        <!-- About Section -->
+
+        <!-- About -->
         <section id="about" class="section">
+
             <div class="container">
-                <h2>About Me</h2>
 
-                <p>
-                    I am a BCA student interested in web development and
-                    software development. I enjoy learning new technologies
-                    and building practical projects that improve my skills.
-                </p>
+                <h2 class="section-title">About Me</h2>
 
-                <p>
-                    Through my projects, I have gained experience in
-                    HTML, CSS, JavaScript, Python, MySQL and Git & GitHub.
-                </p>
+                <div class="about-content">
+
+                    <p>
+                        I am a BCA student interested in web development
+                        and software development. I enjoy learning new
+                        technologies and building practical projects.
+                    </p>
+
+                    <p>
+                        I am continuously improving my skills by working
+                        on real-world projects and learning modern
+                        development practices.
+                    </p>
+
+                </div>
+
             </div>
+
         </section>
 
-        <!-- Skills Section -->
-        <section id="skills" class="section">
+
+        <!-- Skills -->
+        <section id="skills" class="section skills-section">
+
             <div class="container">
-                <h2>My Skills</h2>
+
+                <h2 class="section-title">My Skills</h2>
 
                 <div class="skills-grid">
 
                     <div class="skill-card">
                         <h3>HTML</h3>
-                        <p>Building structured and semantic web pages.</p>
+                        <p>Creating structured and semantic web pages.</p>
                     </div>
 
                     <div class="skill-card">
                         <h3>CSS</h3>
-                        <p>Creating responsive layouts and modern designs.</p>
+                        <p>Designing responsive and modern layouts.</p>
                     </div>
 
                     <div class="skill-card">
                         <h3>JavaScript</h3>
-                        <p>Adding interactivity and functionality to websites.</p>
+                        <p>Adding interactivity and functionality.</p>
                     </div>
 
                     <div class="skill-card">
                         <h3>Python</h3>
-                        <p>Developing programming and problem-solving skills.</p>
+                        <p>Programming and solving practical problems.</p>
                     </div>
 
                     <div class="skill-card">
@@ -102,95 +143,146 @@
 
                     <div class="skill-card">
                         <h3>Git & GitHub</h3>
-                        <p>Managing code and maintaining development projects.</p>
+                        <p>Managing and maintaining development projects.</p>
                     </div>
 
                 </div>
+
             </div>
+
         </section>
 
-        <!-- Projects Section -->
+
+        <!-- Projects -->
         <section id="projects" class="section">
+
             <div class="container">
-                <h2>My Projects</h2>
+
+                <h2 class="section-title">My Projects</h2>
 
                 <div class="projects-grid">
 
-                    <!-- Project 1 -->
+                    <!-- Landing Page -->
                     <article class="project-card">
-                        <h3>SkillForge Landing Page</h3>
 
-                        <p>
-                            A responsive educational landing page designed
-                            with sections for courses, features, learning
-                            resources and contact information.
-                        </p>
+                        <div>
+                            <span class="project-number">01</span>
 
-                        <div class="project-tags">
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>JavaScript</span>
+                            <h3>
+                                SkillForge Landing Page
+                            </h3>
+
+                            <p>
+                                A responsive educational landing page
+                                containing sections for features,
+                                learning resources, courses and contact.
+                            </p>
                         </div>
 
-                        <a
-                            href="../WebDev-L1-LandingPage/index.html"
-                            class="project-link">
-                            View Project
-                        </a>
+                        <div class="project-bottom">
+
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <a
+                                href="../WebDev-L1-LandingPage/index.html"
+                                class="project-link">
+                                View Project →
+                            </a>
+
+                        </div>
+
                     </article>
 
-                    <!-- Project 2 -->
+
+                    <!-- Temperature Converter -->
                     <article class="project-card">
-                        <h3>Temperature Converter</h3>
 
-                        <p>
-                            A temperature conversion tool that converts
-                            values between Celsius, Fahrenheit and Kelvin
-                            with input validation.
-                        </p>
+                        <div>
+                            <span class="project-number">02</span>
 
-                        <div class="project-tags">
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>JavaScript</span>
+                            <h3>
+                                Temperature Converter
+                            </h3>
+
+                            <p>
+                                A temperature conversion tool that
+                                converts Celsius, Fahrenheit and Kelvin
+                                with input validation.
+                            </p>
                         </div>
 
-                        <a
-                            href="../WebDev-L1-TemperatureConverter/index.html"
-                            class="project-link">
-                            View Project
-                        </a>
+                        <div class="project-bottom">
+
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <a
+                                href="../WebDev-L1-TemperatureConverter/index.html"
+                                class="project-link">
+                                View Project →
+                            </a>
+
+                        </div>
+
                     </article>
 
-                    <!-- Project 3 -->
+
+                    <!-- Portfolio -->
                     <article class="project-card">
-                        <h3>Personal Portfolio</h3>
 
-                        <p>
-                            A responsive personal portfolio website
-                            showcasing my skills, projects and contact
-                            information.
-                        </p>
+                        <div>
+                            <span class="project-number">03</span>
 
-                        <div class="project-tags">
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>JavaScript</span>
+                            <h3>
+                                Personal Portfolio
+                            </h3>
+
+                            <p>
+                                A responsive portfolio website showcasing
+                                my skills, projects and contact information.
+                            </p>
                         </div>
 
-                        <a href="#home" class="project-link">
-                            View Portfolio
-                        </a>
+                        <div class="project-bottom">
+
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <a
+                                href="#home"
+                                class="project-link">
+                                Current Website →
+                            </a>
+
+                        </div>
+
                     </article>
 
                 </div>
+
             </div>
+
         </section>
 
-        <!-- Contact Section -->
+
+        <!-- Contact -->
         <section id="contact" class="section contact-section">
+
             <div class="container">
-                <h2>Contact Me</h2>
+
+                <h2 class="section-title">
+                    Let's Connect
+                </h2>
 
                 <p>
                     Interested in working together or discussing an
@@ -202,20 +294,35 @@
                     class="btn">
                     Email Me
                 </a>
+
             </div>
+
         </section>
 
     </main>
 
+
     <!-- Footer -->
-    <footer>
-        <p>&copy; 2026 Avneet Kaur. All Rights Reserved.</p>
+    <footer class="footer">
+
+        <p>
+            &copy; 2026 Avneet Kaur. All Rights Reserved.
+        </p>
+
     </footer>
+
+
+    <!-- Scroll to Top -->
+    <button
+        id="scrollTop"
+        class="scroll-top"
+        aria-label="Scroll to top">
+        ↑
+    </button>
+
 
     <script src="script.js"></script>
 
 </body>
 </html>
-
-
 
