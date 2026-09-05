@@ -1,215 +1,150 @@
-# OIBSIP – Web Development & Design
+# OIBSIP Web Development & Design Internship
 
-## Oasis Infobyte Internship
+## Internship Details
+
+* **Organization:** Oasis Infobyte
+* **Domain:** Web Development & Design
+* **Level:** Level 1
+* **Student:** Avneet Kaur
+* **Year:** 2026
+
+---
+
+## About This Repository
 
 This repository contains the projects completed as part of my **Web Development & Design Internship at Oasis Infobyte (OIBSIP)**.
 
-I have completed **Level 1**, which includes three web development projects using HTML, CSS and JavaScript.
+The projects demonstrate my practical understanding of HTML, CSS and JavaScript, including responsive web design, user interaction and basic JavaScript functionality.
 
 ---
 
-## About the Internship
+## Projects
 
-**Internship:** Oasis Infobyte Internship
-**Track:** Web Development & Design
-**Level:** Level 1
-**Student:** Avneet Kaur
-**Year:** 2026
+### 1. SkillForge Landing Page
 
-The projects were created to improve my practical understanding of frontend web development, responsive design and JavaScript functionality.
+A responsive educational landing page created using HTML, CSS and JavaScript.
 
----
+**Key features:**
 
-# Projects
-
-## 1. Landing Page
-
-**Folder:** `WebDev-L1-LandingPage`
-
-### Description
-
-A responsive landing page for a fictional learning platform called **SkillForge**.
-
-The website focuses on presenting technology learning paths in a simple and attractive layout.
-
-### Features
-
-* Responsive navigation bar
+* Responsive design
+* Navigation sections
 * Hero section
-* Technology learning paths
-* About section
-* Course section
+* Features section
+* Learning resources
+* Courses section
 * Contact section
-* Newsletter section
-* Scroll-to-top button
-* Hover effects and animations
-* Responsive design for different screen sizes
+* Scroll-to-top interaction
 
-### Technologies Used
-
-* HTML5
-* CSS3
-* JavaScript
-
----
-
-## 2. Personal Portfolio
-
-**Folder:** `WebDev-L1-Portfolio`
-
-### Description
-
-A personal portfolio website created to introduce myself, showcase my technical skills and display my projects.
-
-### Sections
-
-* Home
-* About Me
-* Skills
-* Projects
-* Contact
-
-### Skills Included
+**Technologies:**
 
 * HTML
 * CSS
 * JavaScript
-* Python
-* MySQL
-* Git & GitHub
 
-### Technologies Used
-
-* HTML5
-* CSS3
-* JavaScript
+**Project folder:** `WebDev-L1-LandingPage`
 
 ---
 
-## 3. Temperature Converter
+### 2. Personal Portfolio
 
-**Folder:** `WebDev-L1-TemperatureConverter`
+A responsive personal portfolio website created to showcase my skills, projects and contact information.
 
-### Description
+**Key features:**
 
-A simple temperature conversion web application that allows users to convert temperatures between different units.
+* About section
+* Skills section
+* Projects section
+* Contact section
+* Responsive navigation
+* Mobile-friendly layout
+* Interactive navigation
+* Scroll-to-top functionality
 
-### Supported Units
+**Technologies:**
 
-* Celsius (°C)
-* Fahrenheit (°F)
-* Kelvin (K)
+* HTML
+* CSS
+* JavaScript
 
-### Features
+**Project folder:** `WebDev-L1-Portfolio`
 
-* Temperature input
-* Unit selection
-* Accurate conversion
-* Result displayed with the correct unit
+---
+
+### 3. Temperature Converter
+
+A temperature conversion web application that allows users to convert temperatures between Celsius, Fahrenheit and Kelvin.
+
+**Key features:**
+
+* Celsius conversion
+* Fahrenheit conversion
+* Kelvin conversion
 * Input validation
 * Absolute-zero validation
-* Responsive interface
+* Responsive design
 
-### Technologies Used
+**Technologies:**
+
+* HTML
+* CSS
+* JavaScript
+
+**Project folder:** `WebDev-L1-TemperatureConverter`
+
+---
+
+## Technologies Used
 
 * HTML5
 * CSS3
 * JavaScript
+* Git
+* GitHub
 
 ---
 
-# Repository Structure
+## How to Run the Projects
 
-```text
-OIBSIP
+No backend or server is required.
+
+1. Clone or download this repository.
+2. Open any project folder.
+3. Open its `index.html` file in a web browser.
+
+### Project folders
+
+OIBSIP/
 │
-├── .vscode
+├── WebDev-L1-LandingPage/
+│   └── index.html
 │
-├── WebDev-L1-LandingPage
-│   ├── images
-│   ├── index.html
-│   ├── style.css
-│   ├── script.js
-│   └── README.md
+├── WebDev-L1-Portfolio/
+│   └── index.html
 │
-├── WebDev-L1-Portfolio
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-│
-├── WebDev-L1-TemperatureConverter
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
+├── WebDev-L1-TemperatureConverter/
+│   └── index.html
 │
 └── README.md
-```
+
 
 ---
 
-# Learning Outcomes
+## Internship Outcome
 
-Through these projects, I practiced:
+Through these projects, I gained practical experience in:
 
-* Creating webpages using HTML
-* Styling websites using CSS
-* Creating responsive layouts
-* Using JavaScript for basic functionality
-* Handling user input
-* Performing calculations using JavaScript
-* Creating navigation and interactive elements
-* Organizing files and project folders
+* Building responsive web pages
+* Creating user-friendly interfaces
+* Using JavaScript for web interactions
+* Form and input validation
+* Organizing web projects
 * Using Git and GitHub for version control
 
 ---
 
-# Tools Used
-
-* **Visual Studio Code**
-* **HTML5**
-* **CSS3**
-* **JavaScript**
-* **Git**
-* **GitHub**
-
----
-
-# How to Run the Projects
-
-1. Clone or download this repository.
-2. Open the required project folder.
-3. Open `index.html` in a web browser.
-
-For example:
-
-```text
-WebDev-L1-LandingPage/index.html
-WebDev-L1-Portfolio/index.html
-WebDev-L1-TemperatureConverter/index.html
-```
-
-No backend or additional installation is required for these three projects.
-
----
-
-# GitHub Repository
-
-The complete internship work is available in this repository:
-
-**OIBSIP – Web Development & Design**
-
----
-
-# Author
+## Author
 
 **Avneet Kaur**
 
-BCA Student | Web Development Learner
-
----
-
-## Internship Project – 2026
-
-**Oasis Infobyte (OIBSIP)**
-
-> Learn. Build. Improve.
+Web Development & Design Intern
+Oasis Infobyte — 2026
